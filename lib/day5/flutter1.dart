@@ -21,7 +21,6 @@ class Flutter1 extends StatelessWidget {
           children: const [
             SizedBox(height: 20),
 
-            // Nama
             Text(
               "Fatimah Falah Soebyanto",
               style: TextStyle(
@@ -32,7 +31,6 @@ class Flutter1 extends StatelessWidget {
 
             SizedBox(height: 5),
 
-            // Lokasi
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -51,7 +49,6 @@ class Flutter1 extends StatelessWidget {
 
             SizedBox(height: 8),
 
-            // Deskripsi
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 20),
               child: Text(
