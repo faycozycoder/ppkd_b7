@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ppkd_b7/flutter4.dart';
+import 'package:ppkd_b7/flutter5.dart';
 
 void main() {
   runApp(const MyApp());
@@ -31,7 +31,13 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: Flutter4(),
+      //PUSH NAMED
+      initialRoute: "/",
+      // routes: {
+      //   "/": (context) => RoutingDay11(),
+      //   "/home": (context) => HomeRoutingDay11(),
+      // },
+      home: RoutingDay11(),
     );
   }
 }
