@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ppkd_b7/flutter5.dart';
+import 'package:ppkd_b7/flutter6/login.dart';
 
 void main() {
   runApp(const MyApp());
@@ -29,15 +29,16 @@ class MyApp extends StatelessWidget {
         //
         // This works for code too, not just values: Most code changes can be
         // tested with just a hot reload.
+        fontFamily: "Gilroy",
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
       //PUSH NAMED
-      initialRoute: "/",
+      // initialRoute: "/",
       // routes: {
       //   "/": (context) => RoutingDay11(),
       //   "/home": (context) => HomeRoutingDay11(),
       // },
-      home: RoutingDay11(),
+      home: Fluttter6(),
     );
   }
 }
